@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         Button btnFirst = findViewById(R.id.btn_first);
 
         btnFinish.setOnClickListener(btnListener);
-        btnFinish.setOnClickListener(btnListener);
+        btnFirst.setOnClickListener(btnListener);
 
         switchStart.setOnCheckedChangeListener(checkListener);
         rg.setOnCheckedChangeListener(rgListener);
